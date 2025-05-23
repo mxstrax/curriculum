@@ -90,5 +90,5 @@ async function stampa() {
         pdf.addImage(imgData, 'PNG', 0, 0, pW, imgMmH);
     }
 
-    pdf.save('CV_Massimo_Chiodi_extracted.pdf');
+    pdf.save('CV.pdf');
 }
